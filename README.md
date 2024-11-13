@@ -1,4 +1,4 @@
-# titanic-machine-learning-disaster
+# titanic
 ## Basic Information
 - Person or organization developing model:
 ## Intended Use

@@ -1,4 +1,4 @@
-# titanic
+# Titanic
 ### Basic Information
 - Person or organization developing model:
 ### Intended Use

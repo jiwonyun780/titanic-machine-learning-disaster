@@ -40,10 +40,32 @@
 
 ### Test Data
 - **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
-- **Number of Rows**: {len(test_data)}
+- **Number of Rows**:
 - **Differences from Training Data**: 
 
-### Model details
+### Model Details
+- **Input Columns**: 
+- **Target Column**: 
+- **Model Type**:
+- **Software Used**: 
+- **Version**: 
+- **Hyperparameters**: 
+
 ### Quantitative analysis
-### Ethical considerations
+- **Evaluation Metrics**:
+  - **Accuracy**: 
+  - **ROC AUC**:
+ ### Performance Metrics Table
+| Data Split   | Accuracy | ROC AUC |
+|--------------|----------|---------|
+| Validation   | 81.01%   | 88.24%  |
+
+![ROC Curve](path-to-roc-curve.png)
+![Feature Importance](path-to-feature-importance.png)
+
+### Ethical Considerations
+- **Potential Negative Impacts**:
+  - 
+- **Potential Uncertainties**:
+  -
 

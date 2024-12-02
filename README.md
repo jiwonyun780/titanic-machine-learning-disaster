@@ -63,10 +63,8 @@
  ### Performance Metrics Table
 | Data Split   | Accuracy | ROC AUC |
 |--------------|----------|---------|
-| Validation   | 81.01%   | 88.24%  |
+|    | %   | %  |
 
-![ROC Curve](path-to-roc-curve.png)
-![Feature Importance](path-to-feature-importance.png)
 
 ## Ethical Considerations
 

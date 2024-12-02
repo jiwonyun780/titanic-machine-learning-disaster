@@ -5,6 +5,7 @@
   - Jiwon, jiwon78@gwmail.gwu.edu
   - Mehak, mehakpreet.kaur@gwmail.gwu.edu
   - Owen, owandalowski@gwmail.gwu.edu
+  - Julia, jmillietsciorra@gwmail.gwu.edu
 - **Date**: 2024-12-02
 - **Model Version**: 0.1
 - **License**: MIT License

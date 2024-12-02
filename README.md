@@ -2,27 +2,28 @@
 
 ## Basic Information
 - **Group Members**: 
-  - Jiwon, jiwon78@gwmail.gwu.edu
-  - Mehak, mehakpreet.kaur@gwmail.gwu.edu
-  - Owen, owandalowski@gwmail.gwu.edu
-  - Julia, jmillietsciorra@gwmail.gwu.edu
+  - Jiwon (jiwon78@gwmail.gwu.edu)
+  - Mehak (mehakpreet.kaur@gwmail.gwu.edu)
+  - Owen (owandalowski@gwmail.gwu.edu)
+  - Julia (jmillietsciorra@gwmail.gwu.edu)
 - **Date**: 2024-12-02
 - **Model Version**: 0.1
 - **License**: MIT License
-- **Model Implementation Code**: [DNSC_3288_Titanic_Machine_Learning_Disaster](https://github.com/jiwonyun780/titanic-machine-learning-disaster/blob/main/Titanic_Project.ipynb)
-- **Intended Use**:
-  - **Primary intended uses**: Serve as an educational example for predicting Titanic survival outcomes using machine learning techniques.
-  - **Primary intended users**: Students at GWU who want to learn about machine learning.
-  - **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
+- **Model Implementation Code**: [Titanic_LogisticRegression](https://github.com/jiwonyun780/titanic-machine-learning-disaster/blob/main/Titanic_Project.ipynb)
 
-### Training Data
-- **Source of training data**:
-  - Kaggle Titanic - Machine Learning from Disaster 
-- **How training data was divided into training and validation data**:
-  - 80% for training and 20% for validation data
-- **Number of rows in training and validation data**:
-  - Training is 713 rows
-  - Validation is 178 rows
+### Intended Use
+- **Primary Intended Uses**: Educational example for predicting Titanic survival outcomes using machine learning.
+- **Primary Intended Users**: GWU students learning machine learning concepts.
+- **Out-of-Scope Use Cases**: Any application beyond education or research purposes.
+
+## Training Data
+- **Source**: [Kaggle Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)
+- **Split Method**:
+  - 80% for training
+  - 20% for validation
+- **Number of Rows**:
+  - Training: 713 rows
+  - Validation: 178 rows
 
 - **Data dictionary**:
 

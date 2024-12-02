@@ -41,13 +41,14 @@
 | PAY_AMT1 - PAY_AMT6 | inputs              | float             | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | DELINQ_NEXT    | target                  | int               | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time                |
 
+## Test Data
+- **Source**: [Kaggle Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)
+- **Number of Rows**: 
+  - Test data: 418 rows
+- **Differences from Training Data**:
+  - The test data does not include the `Survived` column, which is the target variable in the training data.
 
-### Test Data
-- **Source of test data**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
-- **Number of Rows**:
-- **Differences in columns between training and test data**: 
-
-### Model Details
+## Model Details
 - **Input Columns**: 
 - **Target Column**: 
 - **Model Type**:
@@ -55,7 +56,7 @@
 - **Version**: 
 - **Hyperparameters**: 
 
-### Quantitative analysis
+## Quantitative analysis
 - **Evaluation Metrics**:
   - **Accuracy**: 
   - **ROC AUC**:
@@ -67,9 +68,25 @@
 ![ROC Curve](path-to-roc-curve.png)
 ![Feature Importance](path-to-feature-importance.png)
 
-### Ethical Considerations
-- **Potential Negative Impacts**:
-  - 
-- **Potential Uncertainties**:
-  -
+## Ethical Considerations
+
+### Potential Negative Impacts
+- **Math or Software Problems**:
+  - Bias in training data (e.g., imbalanced classes) can lead to poor generalization.
+  - Missing or imputed values might introduce inaccuracies in predictions.
+- **Real-World Risks**:
+  - Misclassification could lead to incorrect decisions in critical scenarios.
+  - Discrimination against underrepresented groups in the dataset.
+
+### Potential Uncertainties
+- **Math or Software Problems**:
+  - Uncertainty in the model’s performance on unseen data, especially given class imbalance.
+  - Overfitting to training data due to dataset-specific patterns.
+- **Real-World Risks**:
+  - The model might not generalize well across different populations or settings.
+  - Ethical implications may arise when predictions affect human lives or rights.
+
+### Unexpected Results
+- The test set containing only one class highlighted the need for balanced datasets.
+- This unexpected outcome underscores the importance of careful dataset preparation before training and evaluation.
 

@@ -10,15 +10,20 @@
 - **Model Version**: 0.1
 - **License**: MIT License
 - **Model Implementation Code**: [DNSC_3288_Titanic_Machine_Learning_Disaster](https://github.com/jiwonyun780/titanic-machine-learning-disaster/blob/main/Titanic_Project.ipynb)
-
-
-
-### Intended Use
-- **Primary intended uses**: 
-- **Primary intended users**: Students in GWU who wants to learn Machine Learning.
-- **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
+- **Intended Use**:
+  - **Primary intended uses**: Serve as an educational example for predicting Titanic survival outcomes using machine learning techniques.
+  - **Primary intended users**: Students at GWU who want to learn about machine learning.
+  - **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
 ### Training Data
+- **Source of training data**:
+  - Kaggle Titanic - Machine Learning from Disaster 
+- **How training data was divided into training and validation data**:
+  - 80% for training and 20% for validation data
+- **Number of rows in training and validation data**:
+  - Training is 713 rows
+  - Validation is 178 rows
+
 - **Data dictionary**:
 
 | Name           | Modeling Role           | Measurement Level | Description                                                                                   |
@@ -34,14 +39,12 @@
 | BILL_AMT1 - BILL_AMT6 | inputs           | float             | amount of bill statement; BILL_AMT1 = amount of bill statement in September, 2005; BILL_AMT2 = amount of bill statement in August, 2005; ...; BILL_AMT6 = amount of bill statement in April, 2005 |
 | PAY_AMT1 - PAY_AMT6 | inputs              | float             | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | DELINQ_NEXT    | target                  | int               | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time                |
-- **Source of training data**: 
-- **How training data was divided into training and validation data**:
-- **Number of rows in training and validation data**:
+
 
 ### Test Data
-- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
+- **Source of test data**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
 - **Number of Rows**:
-- **Differences from Training Data**: 
+- **Differences in columns between training and test data**: 
 
 ### Model Details
 - **Input Columns**: 

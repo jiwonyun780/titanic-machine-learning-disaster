@@ -10,7 +10,7 @@
 - **Model Version**: 0.1
 - **License**: MIT License
 - **Model Implementation Code**: [DNSC_3288_Titanic_Machine_Learning_disaster](https://github.com/jiwonyun780/titanic-machine-learning-disaster/blob/main/Titanic_Project.ipynb)
-- 
+
 
 
 ### Intended Use

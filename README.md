@@ -47,7 +47,6 @@
   - Sex_male
   - Embarked_Q
   - Embarked_S
-
 - **Target Column**: 
   - Survived
 - **Model Type**: 
@@ -55,7 +54,8 @@
 - **Software Used**: 
   - Google Colab / Python
 - **Version**: 
-  - Python 3
+  - Python version: 3.10.12
+  -sklearn version: 1.5.2
 - **Hyperparameters**: 
   - **Max_iter**: 1000  
     Ensures sufficient iterations for convergence of the optimization algorithm.

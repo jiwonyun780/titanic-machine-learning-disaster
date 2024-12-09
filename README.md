@@ -27,7 +27,24 @@
   - Validation: 178 rows
 
 - **Data dictionary**:
+# Titanic Survival Prediction Model
 
+## Data Dictionary
+
+| **Name**         | **Modeling Role** | **Measurement Level** | **Description**                                                             |
+|-------------------|-------------------|-----------------------|-----------------------------------------------------------------------------|
+| **PassengerID**   | ID                | int                   | Unique row identifier                                                      |
+| **Survived**      | Target            | int                   | Survival status: 0 = no, 1 = yes                                           |
+| **Pclass**        | Input             | int                   | Ticket class: 1 = 1st, 2 = 2nd, 3 = 3rd                                    |
+| **Sex_male**      | Input             | boolean               | True = Male, False = Female                                                |
+| **Age**           | Input             | float                 | Age in years                                                               |
+| **SibSp**         | Input             | int                   | Number of siblings and spouses aboard the Titanic                          |
+| **Parch**         | Input             | int                   | Number of parents and children aboard the Titanic                          |
+| **Fare**          | Input             | float                 | Passenger fare                                                             |
+| **Embarked_Q**    | Input             | boolean               | Port of embarkation: True = Queenstown, False = Cherbourg or Southampton   |
+| **Embarked_S**    | Input             | boolean               | Port of embarkation: True = Southampton, False = Cherbourg or Queenstown   |
+
+---
 
 ## Test Data
 - **Source**: [Kaggle Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)

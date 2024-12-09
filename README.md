@@ -28,7 +28,6 @@
 
 - **Data dictionary**:
 
-        |
 
 ## Test Data
 - **Source**: [Kaggle Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)
@@ -78,6 +77,8 @@
 | Training     | 85.0     |
 | Validation   | 88.0     |
 
+- **Correlation Heatmap**:
+![Correlation Heatmap](Correlation_Heatmap.png)
 ---
 
 ### **Visualization**

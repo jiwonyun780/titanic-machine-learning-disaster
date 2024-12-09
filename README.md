@@ -39,11 +39,15 @@
 
 ## Model Details
 - **Input Columns**: 
+  - Pclass
   - Age
+  - SibSp
+  - Parch
   - Fare
-  - Sex male
-  - Embarked Q
-  - Embarked S
+  - Sex_male
+  - Embarked_Q
+  - Embarked_S
+
 - **Target Column**: 
   - Survived
 - **Model Type**: 

@@ -94,15 +94,16 @@
 | Training     | 85.0     |
 | Validation   | 88.0     |
 
-- **Correlation Heatmap**:
-![Correlation Heatmap](Correlation_Heatmap.png)
----
 
 ### **Visualization**
 Below is the ROC Curve for the Logistic Regression Model:
 
 ![ROC Curve](ROC_curve.png)
 
+
+### **Correlation Heatmap**
+![Correlation Heatmap](Correlation_Heatmap.png)
+---
 
 
 ## Ethical Considerations

@@ -55,7 +55,7 @@
   - Google Colab / Python
 - **Version**: 
   - Python version: 3.10.12
-  -sklearn version: 1.5.2
+  - sklearn version: 1.5.2
 - **Hyperparameters**: 
   - **Max_iter**: 1000  
     Ensures sufficient iterations for convergence of the optimization algorithm.

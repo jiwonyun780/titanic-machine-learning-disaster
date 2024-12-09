@@ -9,7 +9,8 @@
 - **Date**: 2024-12-02
 - **Model Version**: 0.1
 - **License**: MIT License
-- **Model Implementation Code**: [Titanic_LogisticRegression](https://github.com/jiwonyun780/titanic-machine-learning-disaster/blob/main/Titanic_Project.ipynb)
+- **Model Implementation Code**: [Titanic_LogisticRegression](https://github.com/jiwonyun780/titanic-machine-learning-disaster/blob/main/Final_Titanic_LogisticRegression.ipynb)
+
 
 ### Intended Use
 - **Primary Intended Uses**: The model is an example of a classifier used for machine learning educational purposes only.

@@ -33,7 +33,7 @@
 | PassengerID         | ID                      | int               | Unique row identifier                                                                         |
 | Survived            | Target                  | int               | Survival status: 0 = did not survive; 1 = survived                                           |
 | Pclass              | Input                   | int               | Ticket class: 1 = 1st; 2 = 2nd; 3 = 3rd                                                      |
-| Name                |                    | str               | Passenger's full name                                                                         |
+| Name                | Demographic information                  | str               | Passenger's full name                                                                         |
 | Sex                 | Demographic information | str               | Passenger's gender (e.g., male, female)                                                      |
 | Age                 | Demographic information | float             | Age in years                                                                                 |
 | SibSp               | Demographic information | int               | Number of siblings or spouses aboard                                                         |

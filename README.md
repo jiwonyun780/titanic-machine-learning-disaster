@@ -86,7 +86,7 @@
 ### **Visualization**
 Below is the ROC Curve for the Logistic Regression Model:
 
-![ROC Curve](images/ROC curve.pdf)
+![ROC Curve](images/ROC_curve.png)
 
 
 

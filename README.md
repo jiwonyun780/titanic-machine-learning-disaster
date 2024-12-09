@@ -12,9 +12,10 @@
 - **Model Implementation Code**: [Titanic_LogisticRegression](https://github.com/jiwonyun780/titanic-machine-learning-disaster/blob/main/Titanic_Project.ipynb)
 
 ### Intended Use
-- **Primary Intended Uses**: Educational example for predicting Titanic survival outcomes using machine learning.
-- **Primary Intended Users**: GWU students learning machine learning concepts.
-- **Out-of-Scope Use Cases**: Any application beyond education or research purposes.
+- **Primary Intended Uses**: The model is an example of a classifier used for machine learning educational purposes only.
+- **Primary Intended Users**: Students and anyone interested in machine learning education. 
+- **Out-of-Scope Use Cases**: Anything that is not for machine learning educational purposes.
+
 
 ## Training Data
 - **Source**: [Kaggle Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)
@@ -50,20 +51,43 @@
 
 ## Model Details
 - **Input Columns**: 
+  - Age
+  - Fare
+  - Sex male
+  - Embarked Q
+  - Embarked S
 - **Target Column**: 
-- **Model Type**:
+  - Survived
+- **Model Type**: 
+  - Logistic Regression
 - **Software Used**: 
+  - Google Colab / Python
 - **Version**: 
+  - Python 3
 - **Hyperparameters**: 
+  - **Max_iter**: 1000  
+    Ensures sufficient iterations for convergence of the optimization algorithm.
+  - **Random_state**: 42  
+    Ensures reproducibility by fixing the randomness in processes.
 
-## Quantitative analysis
-- **Evaluation Metrics**:
-  - **Accuracy**: 
-  - **ROC AUC**:
- ### Performance Metrics Table
-| Data Split   | Accuracy | ROC AUC |
-|--------------|----------|---------|
-|    | %   | %  |
+## Quantitative Analysis
+
+### **Evaluation Metrics**
+- **ROC AUC**: The Area Under the Receiver Operating Characteristic Curve measures the model's ability to distinguish between classes.
+
+### **Performance Metrics Table**
+| Data Split   | ROC AUC  |
+|--------------|----------|
+| Training     | 85.0     |
+| Validation   | 88.0     |
+
+---
+
+### **Visualization**
+Below is the ROC Curve for the Logistic Regression Model:
+
+![ROC Curve](images/roc_curve.png)
+
 
 
 ## Ethical Considerations

@@ -32,15 +32,15 @@
 |---------------------|-------------------------|-------------------|-----------------------------------------------------------------------------------------------|
 | PassengerID         | ID                      | int               | Unique row identifier                                                                         |
 | Survived            | Target                  | int               | Survival status: 0 = did not survive; 1 = survived                                           |
-| Pclass              | Input                   | int               | Ticket class: 1 = 1st; 2 = 2nd; 3 = 3rd                                                      |
-| Name                | Demographic information                  | str               | Passenger's full name                                                                         |
+| Pclass              |                    | int               | Ticket class: 1 = 1st; 2 = 2nd; 3 = 3rd                                                      |
+| Name                |                   | str               | Passenger's full name                                                                         |
 | Sex                 | Demographic information | str               | Passenger's gender (e.g., male, female)                                                      |
 | Age                 | Demographic information | float             | Age in years                                                                                 |
 | SibSp               | Demographic information | int               | Number of siblings or spouses aboard                                                         |
 | Parch               | Demographic information | int               | Number of parents or children aboard                                                         |
-| Ticket              | Input                  | str               | Ticket number                                                                                |
+| Ticket              |                   | str               | Ticket number                                                                                |
 | Fare                | Input                   | float             | Passenger fare                                                                               |
-| Cabin               | Input                 | str               | Cabin number (if available)                                                                  |
+| Cabin               |                  | str               | Cabin number (if available)                                                                  |
 | Embarked            | Input                   | str               | Port of embarkation: C = Cherbourg; Q = Queenstown; S = Southampton                          |
 
 

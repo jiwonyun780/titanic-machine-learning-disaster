@@ -64,8 +64,6 @@
 
 ## Quantitative Analysis
 
-### **Evaluation Metrics**
-- **ROC AUC**: The Area Under the Receiver Operating Characteristic Curve measures the model's ability to distinguish between classes.
 
 ### **Performance Metrics Table**
 
@@ -73,6 +71,8 @@
 |--------------|--------------|----------|
 |    0.80056 | 0.81006      | 0.76315     |
 
+- **ROC AUC**: The Area Under the Receiver Operating Characteristic Curve measures the model's ability to distinguish between classes.
+  
 | Data Split   | ROC AUC  | 
 |--------------|----------|
 | Training     | 85.0     |
